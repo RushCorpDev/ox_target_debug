@@ -11,7 +11,6 @@ local function getEntityName(entity)
     end
 end
 
--- Interaction sur véhicule
 exports.ox_target:addGlobalVehicle({
     {
         name = 'debug_vehicle',
@@ -37,7 +36,6 @@ exports.ox_target:addGlobalVehicle({
     }
 })
 
--- Interaction sur objet/prop
 exports.ox_target:addGlobalObject({
     {
         name = 'debug_object',
@@ -62,4 +60,5 @@ exports.ox_target:addGlobalObject({
         end
     }
 })
+
 
