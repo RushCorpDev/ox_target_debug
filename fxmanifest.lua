@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 author 'Lykos'
-description 'Exemple ox_target avec debug objects'
+description 'ox_target Debug'
 version '1.0.0'
 
 client_scripts {
@@ -18,3 +18,4 @@ dependencies {
     'ox_target',
     'ox_lib'
 }
+
